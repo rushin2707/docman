@@ -1,0 +1,52 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the header (h1) */
+h1 {
+    font-size: 36px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the secondary header (h2) */
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Style the additional header (h3) */
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style the links */
+a {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #3498db;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+a:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
